@@ -1,8 +1,9 @@
 {
-  "name": "quiz",
+  "name": "@vitoria-rodrigues/quiz-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@10.33.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,18 +11,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "catalog:web-stack",
+    "react-dom": "catalog:web-stack"
   },
   "devDependencies": {
-    "@eslint/js": "^9.33.0",
-    "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.7",
-    "@vitejs/plugin-react": "^5.0.0",
-    "eslint": "^9.33.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0",
-    "vite": "^7.1.2"
+    "@eslint/js": "catalog:tooling-stack",
+    "@types/react": "catalog:web-stack",
+    "@types/react-dom": "catalog:web-stack",
+    "@vitejs/plugin-react": "catalog:web-stack",
+    "@vitoria-rodrigues/agent-mesh": "catalog:plugins-stack",
+    "eslint": "catalog:tooling-stack",
+    "eslint-plugin-react-hooks": "catalog:tooling-stack",
+    "eslint-plugin-react-refresh": "catalog:tooling-stack",
+    "globals": "catalog:tooling-stack",
+    "vite": "catalog:web-stack"
   }
 }
